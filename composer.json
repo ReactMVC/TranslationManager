@@ -1,8 +1,8 @@
 {
-    "name": "translation/manager",
+    "name": "translate/manager",
     "description": "a fast Translation Manager for php powered by google-translate-php",
     "type": "library",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "authors": [
         {
             "name": "Hossein Pira",
@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Translation\\": "src/"
+            "Translate\\": "src/"
         }
     }
 }

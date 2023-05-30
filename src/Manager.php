@@ -1,12 +1,12 @@
 <?php
 /*
-Name: Translation Manager
+Name: Translate Manager
 Version: 1.0.0
 Developer: Hossein Pira
 Email: h3dev.pira@gmail.com
 */
 
-namespace Translation;
+namespace Translate;
 
 use Stichoza\GoogleTranslate\GoogleTranslate;
 
