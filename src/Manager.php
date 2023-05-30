@@ -1,12 +1,12 @@
 <?php
 /*
-Name: Translate Manager
+Name: DarkPHP: Translate Manager
 Version: 1.0.0
 Developer: Hossein Pira
 Email: h3dev.pira@gmail.com
 */
 
-namespace Translate;
+namespace DarkPHP;
 
 use Stichoza\GoogleTranslate\GoogleTranslate;
 
