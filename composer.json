@@ -1,0 +1,20 @@
+{
+    "name": "translation/manager",
+    "description": "a fast Translation Manager for php powered by google-translate-php",
+    "type": "library",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Hossein Pira",
+            "email": "h3dev.pira@gmail.com"
+        }
+    ],
+    "require": {
+        "stichoza/google-translate-php": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Translation\\": "src/"
+        }
+    }
+}
