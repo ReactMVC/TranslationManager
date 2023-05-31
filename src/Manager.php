@@ -1,7 +1,8 @@
 <?php
+
 /*
-Name: DarkPHP Translate Manager
-Version: 1.3.2
+Name: DarkPHP: Translate Manager
+Version: 1.4.0
 Developer: Hossein Pira
 Email: h3dev.pira@gmail.com
 */
@@ -26,6 +27,13 @@ class Manager
     $this->saveJsonData($translatedData, $outputFile);
   }
 
+  public function translateArray($language, $inputFile, $outputFile)
+  {
+    $array = include $inputFile;
+    $translatedArray = $this->translateArrayValues($array, $language);
+    $this->savePhpArray($translatedArray, $outputFile);
+  }
+
   private function loadJsonData($file)
   {
     $json = file_get_contents($file);
@@ -36,6 +44,12 @@ class Manager
   {
     $json = json_encode($data, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
     file_put_contents($file, $json);
+  }
+
+  private function savePhpArray($array, $file)
+  {
+    $php = "<?php\n\nreturn " . var_export($array, true) . ";\n";
+    file_put_contents($file, $php);
   }
 
   private function translateArrayValues($array, $language)
