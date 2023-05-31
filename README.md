@@ -1,5 +1,5 @@
 # Translation Manager
-a fast Translation Manager for php powered by google-translate-php
+DarkPHP is a fast Translation Manager for php and laravel powered by google-translate-php
 
 ## installation
 ```
