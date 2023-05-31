@@ -2,7 +2,7 @@
     "name": "darkphp/translate",
     "description": "a fast Translation Manager for php powered by google-translate-php",
     "type": "library",
-    "version": "1.2.0",
+    "version": "1.3.0",
     "authors": [
         {
             "name": "Hossein Pira",
