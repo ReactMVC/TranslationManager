@@ -1,6 +1,6 @@
 <?php
 /*
-Name: DarkPHP: Translate Manager
+Name: DarkPHP Translate Manager
 Version: 1.3.2
 Developer: Hossein Pira
 Email: h3dev.pira@gmail.com
